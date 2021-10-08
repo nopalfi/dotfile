@@ -1,0 +1,7 @@
+out_to_x no
+out_to_console yes
+update_interval 1.5
+total_run_times 0
+use_spacer none
+TEXT
++@fn=2; | +@fn=1;: ${mem}/${memmax} +@fn=2; | +@fn=1;: ${cpu}% +@fn=2; | +@fn=1;${battery_percent}%+@fn=2; | +@fn=1; ${downspeed enp2s0} 龍 ${upspeed enp2s0} +@fn=2; |+@fn=1; ${tcp_ping 1.1.1.1}ms 
